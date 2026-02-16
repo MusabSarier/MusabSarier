@@ -11,6 +11,15 @@
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MusabSarier/MusabSarier/output/github-snake.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MusabSarier/MusabSarier/output/github-snake.gif" />
+  <img alt="GitHub Contribution Snake GIF" src="https://raw.githubusercontent.com/MusabSarier/MusabSarier/output/github-snake.gif" />
+</picture>
+
+
+---
+
 # 🌐 Connect with Me:
 <p align="left">
 <a href="https://linkedin.com/in/mehmetmusabsarier" target="blank">
@@ -86,22 +95,6 @@
 
 ---
 
-# 🐍 Contribution Snake
-
-<img src="https://raw.githubusercontent.com/MusabSarier/MusabSarier/output/github-snake.svg" />
-
----
-
 [![](https://visitcount.itsvg.in/api?id=MusabSarier&icon=0&color=1)](https://visitcount.itsvg.in)
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/MusabSarier/MusabSarier/output/github-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/MusabSarier/MusabSarier/output/github-snake.svg"
-  />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/MusabSarier/MusabSarier/output/github-snake.svg" />
-</picture>
+
 
