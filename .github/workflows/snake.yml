@@ -1,22 +1,18 @@
-name: Generate Snake
+name: Generate Snake GIF
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Generate snake SVGs
+      - name: Generate snake GIF
         uses: Platane/snk@v3
         with:
           github_user_name: MusabSarier
           outputs: |
-            output/github-snake.svg
-            output/github-snake-dark.svg?palette=github-dark
+            output/github-snake.gif?color_snake=#00ff88&color_dots=#0f2027,#14532d,#166534,#22c55e,#00ff88&color_background=#111111
 
       - name: Push to output branch
         uses: ad-m/github-push-action@v0.6.0
